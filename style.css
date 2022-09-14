@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    height: 600px;
+    width: 350px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid black;
+    /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    background-color: #292D36;
+        border-radius: 15px;
+        margin-top: 50px;
+}
+
+
+.screenface{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80% ;
+    height: 170px;
+    /* background-color: blue;  */
+    margin-left: 35px;
+
+}
+
+div input{
+    height: 90%;
+    width: 100%;
+    margin: auto 0;
+    margin-bottom: 20px;
+    /* margin-left: 80px; */
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #282731;
+    pointer-events: none;
+}
+
+.icons{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 50px; */
+    border-radius: 5px;
+    border: none;
+    border: 1px gray solid;
+    background-color: #282731;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    /* align-items: center; */
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 40px 40px 40px 40px 40px;  
+    gap:15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    /* height:50px ; */
+    cursor: pointer;
+
+    
+}
+
+.btn{
+    border: 1px solid #2C2D37;
+        background-color: #2C2D37;
+        font-size:22px ;
+        color: white;
+}
+
+
+
+.btn-green {
+    color: #279585;
+    font-size: 20px;
+}
+
+.btn-red {
+    color: #BE585A;
+    font-size: 20px;
+}
